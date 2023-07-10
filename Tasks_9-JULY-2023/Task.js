@@ -140,4 +140,4 @@ arr.sort(function(a, b) {
 });
 console.log(arr);
 
-
+arr1.sort();

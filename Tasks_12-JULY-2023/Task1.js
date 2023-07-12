@@ -288,19 +288,19 @@ function shorterString(str1, str2, str3, str4, str5) {
   const strings = [str1, str2, str3, str4, str5];
   let shortestStringVal = strings[0];
 
-  for (let i = 1; i < strings.length; i++) {
+  for (let i = 0; i < strings.length; i++) {
     if (strings[i].length < shortestStringVal.length) {
       shortestStringVal = strings[i];
     }
   }
   return console.log(shortestStringVal);
 }
-console.log(shorterString("air", "school", "car", "by", "github")); // Output: by
-console.log(shorterString("air", "tr", "car", "by", "github")); // Output: tr
-console.log(shorterString("by", "tr", "car", "air", "github")); // Output: by
-console.log(shorterString("air", "by", "car", "school", "github")); // Output: by
-console.log(shorterString("air", "tr", "by", "car", "github")); // Output: tr
-console.log(shorterString("air", "tr", "car", "github", "by"));  // Output: tr
+shorterString("air", "school", "car", "by", "github"); // Output: by
+shorterString("air", "tr", "car", "by", "github"); // Output: tr
+shorterString("by", "tr", "car", "air", "github"); // Output: by
+shorterString("air", "by", "car", "school", "github"); // Output: by
+shorterString("air", "tr", "by", "car", "github"); // Output: tr
+shorterString("air", "tr", "car", "github", "by");  // Output: tr
 
 /*************************************************************************************
 14-
@@ -321,7 +321,7 @@ function longerString(str1, str2, str3, str4){
   const strings = [str1, str2, str3, str4];
   let longStringVal = strings[0];
 
-  for (let i = 1; i < strings.length; i++) {
+  for (let i = 0; i < strings.length; i++) {
     if (strings[i].length > longStringVal.length) {
       longStringVal = strings[i];
     }

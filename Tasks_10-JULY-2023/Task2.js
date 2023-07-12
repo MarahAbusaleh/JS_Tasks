@@ -12,19 +12,19 @@ switch (true) {
   case GPAValue < 50:
     console.log("Fail");
     break;
-  case GPAValue > 50 && GPAValue < 59:
+  case GPAValue >= 50 && GPAValue <= 59:
     console.log("E");
     break;
-  case GPAValue > 60 && GPAValue < 69:
+  case GPAValue >= 60 && GPAValue <= 69:
     console.log("D");
     break;
-  case GPAValue > 70 && GPAValue < 79:
+  case GPAValue >= 70 && GPAValue <= 79:
     console.log("C");
     break;
-  case GPAValue > 80 && GPAValue < 89:
+  case GPAValue >= 80 && GPAValue <= 89:
     console.log("B");
     break;
-  case GPAValue > 90 && GPAValue < 100:
+  case GPAValue >= 90 && GPAValue <= 100:
     console.log("A");
     break;
 }

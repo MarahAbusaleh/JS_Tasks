@@ -3,7 +3,7 @@ container.classList.add('container');//Give a class
 document.body.appendChild(container);
 
 // Cards static data
-const cardDataIngo = [
+const cardDataInfo = [
 
     {
       name: 'Marah Abusaleh',
@@ -29,7 +29,7 @@ const cardDataIngo = [
 ];
 
 // Create cards
-cardDataIngo.forEach((card) => {
+cardDataInfo.forEach((card) => {
 
     const cardContainer = document.createElement('div');
     cardContainer.style.width = '220px';

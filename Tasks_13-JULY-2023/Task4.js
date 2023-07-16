@@ -14,7 +14,6 @@ Font[0].addEventListener('change', function(){
 
 });
 
-
 //fontSize
 Font[1].addEventListener('change', function(){
 
@@ -29,7 +28,7 @@ Font[1].addEventListener('change', function(){
 
 for(let i = 0; i < inVal.length; i++) {
 
-    inVal[i].addEventListener('change', function() {
+    inVal[i].addEventListener('click', function() {
 
         if(inVal[i].checked) {
 
@@ -47,8 +46,8 @@ for(let i = 0; i < inVal.length; i++) {
         else {
 
             txt.style.fontStyle = 'normal';
-            txt.style.fontWeight = "normal";
-            txt.style.textDecoration = "none";
+            txt.style.fontWeight = 'normal';
+            txt.style.textDecoration = 'none';
             
         }
 

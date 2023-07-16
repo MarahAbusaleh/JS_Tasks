@@ -22,3 +22,5 @@ Selection.addEventListener('change', function() {
     img.appendChild(image);
 
 });
+
+//document.getElementById().img.src = this .value    //try this

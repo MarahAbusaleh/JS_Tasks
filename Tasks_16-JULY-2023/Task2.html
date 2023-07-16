@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .Card{
+            width: 200px;
+            height: fit-content;
+            border: 2px solid black;
+            text-align: center;   
+            padding: 5px;    
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="uname" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required><br><br>
+
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="image">Upload Your Image:</label>
+        <input type="file" id="image" name="image" accept="image/*"><br><br><hr>
+        <!-- The accept attribute is set to "image/*". This means that the file input field will accept only files of image types. -->
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+        <label for="major">Major & University:</label>
+        <input type="text" id="major" name="major" required><br><br>
+
+        <label for="programmingLanguages">Programming Language:</label>
+        <input type="checkbox" id="html" name="programmingLanguages" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="programmingLanguages" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="programmingLanguages" value="JS">
+        <label for="js">JavaScript</label><br><br><hr>
+
+        <label for="siblingsNumber">Siblings Number:</label>
+        <input type="number" id="siblingsNumber" name="siblingsNumber"><br><br>
+
+        <label for="siblingsDescription">Description of Siblings:</label>
+        <input type="text" id="siblingsDescription" name="siblingsDescription"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <br><hr><hr><br>
+    <div class="Card">
+        <p id="namee"></p>
+        <p id="agee"></p>
+        <p id="genderr"></p>
+        <p id="bd"></p>
+        <img id="img">
+    </div>
+    <br>
+    <div class="Card">
+        <p id="descrip"></p>
+        <p id="mu"></p>
+        <p id="lang"></p>
+    </div>
+    <br>
+    <div class="Card">
+        <p id="sn"></p>
+        <p id="sd"></p>
+    </div>
+    <script src="Task2.js"></script>
+</body>
+</html>

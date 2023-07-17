@@ -1,7 +1,7 @@
 {
-    "Names": ["Marah", "Rama", "Leena", "Razan", "Qasem"],
-    "Ages": [23, 23, 24, 22, 23],
-    "Major": ["CPE", "SE", "TRA", "SE", "CS"],
-    "Univercity": ["JUST", "JUST", "YU", "JUST", "JU"],
-    "Images": ["./Images/MyProfailPictureSq.jpeg", "./Images/rama.jpg", "./Images/leena.jpg", "./Images/razan.jpg", "./Images/qasem.jpg"]
+    "Names": ["Marah", "Rama", "Leena", "Razan"],
+    "Ages": [23, 23, 24, 22],
+    "Major": ["CPE", "SE", "TRA", "SE"],
+    "Univercity": ["JUST", "JUST", "YU", "JUST"],
+    "Images": ["./Images/MyProfailPictureSq.jpeg", "./Images/rama.jpg", "./Images/leena.jpg", "./Images/razan.jpg"]
 }

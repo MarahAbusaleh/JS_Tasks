@@ -4,6 +4,8 @@ const btn = document.getElementById('btn');
 const startReq = new XMLHttpRequest();
 startReq.open('GET', 'Task1.json');
 
+//as object
+
 startReq.onload = function (){
 
     const Obj = JSON.parse(this.responseText);
@@ -46,3 +48,35 @@ startReq.onload = function (){
 }
 
 startReq.send();
+/*
+{
+    "{
+        Names : "Marah",
+        "Ages" : 23,
+        "Major" : "CPE",
+        "Univercity" : "JUST",
+        "Images" : "./Images/MyProfailPictureSq.jpeg"
+    }",
+    "{
+        "Names" : "Rama",
+        "Ages" : 23,
+        "Major" : "SE",
+        "Univercity" : "JUST",
+        "Images" : "./Images/rama.jpgg"
+    }",
+    "{
+        "Names" : "Leena",
+        "Ages" : 24,
+        "Major" : "TRA",
+        "Univercity" : "YU",
+        "Images" : "./Images/leena.jpg"
+    }",
+    "{
+        "Names" : "Razan",
+        "Ages" : 22,
+        "Major" : "SE",
+        "Univercity" : "JUST",
+        "Images" : "./Images/razan.jpg"
+    }",
+}
+*/
